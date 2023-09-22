@@ -1,0 +1,3 @@
+export const STORESDATA_ACTION_TYPES = {
+    SET_STORES_DATA: 'storesdata/SET_STORES_DATA'
+}

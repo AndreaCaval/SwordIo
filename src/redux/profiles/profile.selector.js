@@ -1,0 +1,1 @@
+export const selectProfiles = (state) => state.profiles.profiles

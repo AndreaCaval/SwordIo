@@ -1,0 +1,172 @@
+{
+
+    "Asos": {
+        "aco": "boolean",
+        "multicart": "boolean",
+        "size": "string",
+        "delay": "number"
+    },
+    "Awlab": {
+        "aco": "boolean",
+        "login": "boolean",
+        "multicart": "boolean",
+        "size": "string",
+        "account": "select",
+        "account_email": "string",
+        "account_password": "string",
+        "payment_mode": ["CreditCard", "PayPal", "CashOnDelivery"],
+        "checkout_mode": ["Fast", "Browser"],
+        "profile": "select",
+        "profile_it": "select",
+        "profile_en": "select",
+        "profile_es": "select"
+    },
+    "B4B": {
+        "aco": "boolean",
+        "size": "string",
+        "mode": ["Fast", "Browser"],
+        "delay": "number"
+    },
+    "Courir": {
+        "aco": "boolean",
+        "login": "boolean",
+        "size": "string",
+        "account": "select",
+        "account_email": "string",
+        "account_password": "string",
+        "payment_mode": ["CreditCard"],
+        "checkout_mode": ["Fast", "Browser"],
+        "profile": "select"
+    },
+    "Footdistrict": {
+        "aco": "boolean",
+        "login": "boolean",
+        "size": "string",
+        "account": "select",
+        "account_email": "string",
+        "account_password": "string",
+        "payment_mode": ["CreditCard"],
+        "checkout_mode": ["Fast", "Browser"],
+        "profile": "select"
+    },
+    "Here Store": {
+        "aco": "boolean",
+        "login": "boolean",
+        "multicart": "boolean",
+        "size": "string",
+        "account": "select",
+        "account_email": "string",
+        "account_password": "string",
+        "payment_mode": ["CreditCard"],
+        "checkout_mode": ["Fast", "Browser"],
+        "profile": "select"
+    },
+    "Kith EU": {
+        "aco": "boolean",
+        "size": "string",
+        "checkout_mode": ["Fast", "Browser"],
+        "profile": "select"
+    },
+    "LVR": {
+        "aco": "boolean",
+        "size": "string",
+        "payment_mode": ["CreditCard"],
+        "checkout_mode": ["Fast", "Browser", "Gift", "Fast2"],
+        "profile": "select"
+    },
+    "Naked": {
+        "aco": "boolean",
+        "size": "string",
+        "mode": ["Fast", "Browser"],
+        "delay": "number"
+    },
+    "Office": {
+        "aco": "boolean",
+        "size": "string",
+        "payment_mode": ["CreditCard", "PayPal"],
+        "checkout_mode": ["Fast", "Browser"],
+        "profile": "select",
+        "delay": "number"
+    },
+    "Offspring": {
+        "aco": "boolean",
+        "size": "string",
+        "payment_mode": ["CreditCard", "PayPal"],
+        "checkout_mode": ["Fast", "Browser"],
+        "profile": "select",
+        "delay": "number"
+    },
+    "Onygo": {
+        "aco": "boolean",
+        "login": "boolean",
+        "size": "string",
+        "account": "select",
+        "account_email": "string",
+        "account_password": "string",
+        "payment_mode": ["CreditCard"],
+        "checkout_mode": ["Fast", "Browser"],
+        "profile": "select"
+    },
+    "SNS": {
+        "aco": "boolean",
+        "size": "string",
+        "mode": ["Fast", "Browser"],
+        "delay": "number"
+    },
+    "Snipes": {
+        "aco": "boolean",
+        "login": "boolean",
+        "size": "string",
+        "country": ["off", "it", "com", "fr", "be", "at", "nl", "ch", "es"],
+        "account": "select",
+        "account_email": "string",
+        "account_password": "string",
+        "payment_mode": ["PayPal", "CreditCard"],
+        "checkout_mode": ["Fast", "Browser"],
+        "profile": "select"
+    },
+    "Solebox": {
+        "aco": "boolean",
+        "login": "boolean",
+        "size": "string",
+        "account": "select",
+        "account_email": "string",
+        "account_password": "string",
+        "payment_mode": ["CreditCard"],
+        "checkout_mode": ["Fast", "Browser"],
+        "profile": "select"
+    },
+    "Supreme": {
+        "aco": "boolean",
+        "size": "string",
+        "payment_mode": ["CreditCard"],
+        "checkout_mode": ["Fast", "Browser"],
+        "profile": "select"
+    },
+    "Woodwood": {
+        "aco": "boolean",
+        "size": "string",
+        "mode": ["Fast", "Browser"],
+        "delay": "number"
+    },
+    "Zalando": {
+        "aco": "boolean",
+        "login": "boolean",
+        "size": "string",
+        "delay": "number",
+        "account": "select",
+        "account_email": "string",
+        "account_password": "string",
+        "payment_mode": ["PayPal", "CreditCard"],
+        "checkout_mode": ["Fast", "Browser"],
+        "profile": "select"
+    },
+    "CMV2": {},
+    "FamousFoxes": {},
+    "MagicEden": {},
+    "OpenSea": {},
+    "Amazon": {},
+    "LDLC": {},
+    "Mediaworld": {},
+    "NBB": {}
+}

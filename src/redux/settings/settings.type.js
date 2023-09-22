@@ -1,0 +1,4 @@
+export const SETTINGS_ACTION_TYPES = {
+    SET_BOX_POSITION: 'settings/SET_BOX_POSITION',
+    SET_WEBHOOK_URL: 'settings/SET_WEBHOOK_URL'
+}

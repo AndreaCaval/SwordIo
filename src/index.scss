@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --black: black;
+    --white: white;
+    --grey: grey;
+    --light-grey: lightgrey;
+    /*
+        https://www.w3schools.com/colors/colors_hsl.asp
+        Red 0 - Orange 30 - Yellow 60 - Green 120 - Blue 240 - Purple 270 - Pink 300 - Red 360
+        Hue is a degree on the color wheel from 0 to 360. 0 is red, 120 is green, 240 is blue.
+        Saturation is a percentage value; 0% means a shade of gray and 100% is the full color.
+        Lightness is also a percentage; 0% is black, 100% is white.
+        hsl(Hue, Saturation%, Lightness%)
+    */
+    /* HSL color mode */
+    // Main
+    --main-hue-color: 160;
+    --main-color: hsl(var(--main-hue-color), 69%, 61%);
+    --main-color-darker: hsl(var(--main-hue-color), 57%, 53%);
+    --main-color-lighter: hsl(var(--main-hue-color), 92%, 85%);
+    // Background
+    --background-hue-color: 210;
+    --background-color: hsl(var(--background-hue-color), 32%, 8%);
+    --background-color-2: hsl(var(--background-hue-color), 32%, 10%);
+    --background-color-lighter: hsl(var(--background-hue-color), 32%, 14%);
+    --background-color-darker: hsl(var(--background-hue-color), 22%, 9%);
+}
+
+// width 
+::-webkit-scrollbar {
+    width: 7.5px;
+    height: 7.5px;
+}
+
+// Track
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+    box-shadow: inset 0 0 5px var(--light1);
+    background: var(--white);
+}
+
+// Handle 
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: var(--main-color);
+}
+
+// Handle on hover 
+::-webkit-scrollbar-thumb:hover {
+    background: var(--main-color-darker);
+}
+
+body {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: var(--background-color);
+    color: var(--white);
+}
+
+a {
+    text-decoration: none;
+    color: var(--white);
+}
+
+.title {
+    margin: 25px;
+    text-decoration: var(--main-color-lighter) line-through;
+    text-transform: uppercase;
+}
+
+.outlet-container {
+    position: absolute;
+    height: 100%;
+    width: calc(100% - 250px);
+    left: 250px;
+    padding: 25px;
+}
+
+@keyframes rotating {
+    from {
+        -ms-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    to {
+        -ms-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
